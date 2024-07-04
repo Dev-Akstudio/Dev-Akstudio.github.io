@@ -1,15 +1,23 @@
 body {
      font-family: "Arial", serif;
-     background: linear-gradient(to bottom, #002f4b, #ea4205);
+     /* background: linear-gradient(to bottom, #002f4b, #ea4205); */
+     height: 95vh;
+     background-color: black;
+     background-image: url("img/bg_01.jpg");
+     background-position: bottom;
+     background-size: cover;
+     background-repeat: no-repeat;
      color: white;
      text-align: center;
      padding: 20px;
 }
 .container {
-     background: rgba(0, 0, 0, 0.7);
+     background: rgba(50, 49, 49, 0.215);
+     backdrop-filter: blur(10px); /* Chrome and Opera */
      padding: 20px;
      border-radius: 10px;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     box-shadow: 0 0 10px rgba(70, 69, 69, 0.667);
+     margin-bottom: 25px;
 }
 .btn-custom {
      background: #008cba;
@@ -43,56 +51,8 @@ body {
      left: 0;
      bottom: 0;
      width: 100%;
-     background-color: rgb(39, 37, 37);
-     color: white;
-     text-align: center;
-}
-======= body {
-     font-family: "Arial", serif;
-     background: linear-gradient(to bottom, #002f4b, #ea4205);
-     color: white;
-     text-align: center;
-     padding: 20px;
-}
-.container {
-     background: rgba(0, 0, 0, 0.7);
-     padding: 20px;
-     border-radius: 10px;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.btn-custom {
-     background: #008cba;
-     color: white;
-}
-.btn-custom:hover {
-     background: #005f6b;
-}
-.btn-share {
-     background: #4caf50;
-     color: white;
-     margin-top: 10px;
-}
-.btn-share:hover {
-     background: #45a049;
-}
-#loading {
-     display: none;
-}
-#result {
-     margin-top: 20px;
-     text-align: left;
-}
-#result img {
-     width: 100%;
-     border-radius: 10px;
-}
-
-.footer {
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     background-color: rgb(39, 37, 37);
+     padding: 5px;
+     background-color: rgba(24, 24, 24, 0.126);
      color: white;
      text-align: center;
 }
